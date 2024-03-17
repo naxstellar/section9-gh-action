@@ -1,0 +1,7 @@
+name: "Deploy to aws s3"
+description: "Deploy a static website using s3"
+runs:
+  using: "node20"
+  main: "main.js"
+  # pre:
+  # post:
